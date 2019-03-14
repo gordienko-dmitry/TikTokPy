@@ -1,0 +1,12 @@
+#
+venv/
+
+templates/
+.vscode/
+.idea/
+.DS_Store
+
+tiktokpy/__pycache__/
+
+temp.py
+
