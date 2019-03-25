@@ -26,10 +26,10 @@ class Settings:
     }
 
     base_headers = {
-        ':method': 'GET',
-        ':authority': 'api2-16-h2.musical.ly',
-        ':scheme': 'https',
-        ':path': '',
+        #':method': 'GET',
+        #':authority': 'api2-16-h2.musical.ly',
+        #':scheme': 'https',
+        #':path': '',
         'Host': 'api2.musical.ly',
         'User-Agent': 'TikTok 10.3.0 rv:103005 (iPhone; iOS 12.1.4; ru_RU) Cronet',
         'Accept-Encoding': 'gzip, deflate',
@@ -85,23 +85,11 @@ class Settings:
     }
 
     cookies = {
-        # '_ga': 'GA1.2.262510379.1551614599',
-        # 'install_id': '6664943549341927173',
-        # 'ttreq': '1$52521590916e709995e6a855f299a3a9870c7b1b',
-        # 'sid_guard': 'bd9718ba26d2032ac873e2c4b48ad0f3%7C1551810102%7C21600%7CWed%2C+06-Mar-2019+00%3A21%3A42+GMT',
-        # 'uid_tt': 'a2a74e3b33d716546c8e11fb47f79917',
-        #'_ga':'GA1.2.262510379.1551614599',
-        #'guard': 'a10395e47f188137e97a9938874fd779%7C1551814641%7C5184000%7CSat%2C+04-May-2019+19%3A37%3A21+GMT',
-
         'uid_tt': '91c80eb90e69bbace74f3b5c9d107ee5bad984852311250976b23062e9e2ea41',
         'sid_tt': 'a10395e47f188137e97a9938874fd779',
         'sessionid': 'a10395e47f188137e97a9938874fd779',
         'install_id': '6664943549341927173',
         'odin_tt':  'ad759d0a3df0a77bc360d3dc3d5a2fca10ec5c1944bb4ac228c64702728500c755d6816b785b58ceb9eac6cd6b87046be5350c9263068ded493643985024e051'
-        #'odin_tt':
-        #'916a2f229cb2f3b1ead5e3a36d9473dd2c9938c6cc9e8665fc57d16a00cd3bcd2f4cc55a5d941e298ccf4c9e011a37f3efe9000bf8b87ee932f99232ec2ae626',
-        #'ttreq':'1$52521590916e709995e6a855f299a3a9870c7b1b',
-        # 'odin_tt': '118466cbd00308c540dbd46ca38131811718b3984b0d3837d1d18a70dd3a540cd8abd7519010d0ea69653c2e150c249564aae29ba3c81b4473e095ca8e7332ea'
     }
 
 

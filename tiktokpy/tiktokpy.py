@@ -11,7 +11,7 @@ def need_to_login(func):
         if not self.cookies.get('user_id') or need_to_login:
             response = api.login(self.username, self.password)
             if response:
-                self.cookies.update(response)
+                self.cookies.update(response['data'])
         if self.cookies.get('user_id'):
             return func(self, *args, **kwargs)
         logging.debug('Wrong username or password')
